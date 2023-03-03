@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test123": "node test 123",
+    "test123": "node test123",
     "test": "node test",
     "deploy": "node deploy",
     "pushtogit": "git add . && git commit -m'Poruka' && git push"
@@ -16,8 +16,8 @@
   ],
   "author": "Comtrade",
   "license": "ISC",
-  "dependencies":{
-    "got":"^12.5.3"
+  "dependencies": {
+    "express": "^4.18.2",
+    "got": "^12.5.3"
   }
-  
 }
